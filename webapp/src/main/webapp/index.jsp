@@ -1,2 +1,2 @@
-Hello, World! Enjoy Jenkins Training!!!
+Hello, World! Maven testing
 
