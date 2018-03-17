@@ -1,2 +1,2 @@
-Hello, World! Maven testing
+Hello, World! Deployment testing
 
