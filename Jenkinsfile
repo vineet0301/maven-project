@@ -30,7 +30,7 @@ pipeline{
             }
             stage("Deploy"){
                 steps{
-                    echo "This is Deploy job"
+                    build 'deploy_to_dev'
                 }
         }
 }
