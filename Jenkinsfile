@@ -32,6 +32,14 @@ pipeline{
                 steps{
                     build 'deploy_to_dev'
                 }
+            }
+            stage("Delivery"){
+                steps{
+                    timeout(2) {
+                        input 'Want to proceed for Production deployment?'
+                    }
+                    build 'deploy_to_prod'
+                }
+            }  
         }
-}
 }
